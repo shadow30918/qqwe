@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.1 703.18">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-3 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #dae255;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #dae255;
+        stroke-dasharray: 0 4.91;
+        stroke-miterlimit: 10;
+        stroke-width: 1.23px;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <g id="_圖層_2" data-name="圖層 2">
+      <g id="_圖層_1-2" data-name="圖層 1">
+        <g>
+          <path class="cls-4" d="M1.62,448.51c0-.13-1.59-258.39-1.59-258.39-.91-27.15,20.35-49.89,47.43-50.79,12.56-.42,25.43,4.16,34.73,12.72,9.15,8.49,10.9,21.58,16.2,32.46,4.68,9.66,12.6,18.11,21.73,23.91,10.54,6.55,22.93,9.92,35.35,9.5,2.47-.08,4.93-.31,7.32-.68,7.45-1.12,14.42-3.53,20.7-7.02,13.7-7.51,24.33-20.22,29.28-35.07,5.68-16.98,.9-31.65-4-47.83-2.45-7.99-4.12-16.65-4.39-24.78C202.55,47.8,245.5,1.89,300.23,.06c20.04-.67,39.99,4.77,56.85,15.62,18.19,11.6,27.67,27.71,38.24,45.89,34.38,59.08,109.9,206.54,111.62,364.68,.5,48.2,1.51,88.91-26.73,143.92-55.78,108.67-195.13,158.32-305.26,120.4-81.16-27.94-143.76-97.75-165.25-180.59-5.19-20.02-8.05-40.77-8.08-61.47Z"/>
+          <rect class="cls-2" x="204.28" y="626.65" width="76.43" height="76.43" rx="38.21" ry="38.21" transform="translate(946.62 593.71) rotate(104.27)"/>
+          <rect class="cls-2" x="124.06" y="613.01" width="57.66" height="57.66" transform="translate(811.71 677.91) rotate(106.53)"/>
+          <rect class="cls-2" x="278.92" y="601.5" width="89" height="89" rx="44.5" ry="44.5" transform="translate(912.17 1064.69) rotate(152.01)"/>
+          <rect class="cls-2" x="155.48" y="513.47" width="106.85" height="106.85" transform="translate(763.79 805.88) rotate(133.53)"/>
+          <rect class="cls-2" x="268.54" y="434.21" width="152.34" height="152.34" transform="translate(714.13 17.59) rotate(70.89)"/>
+          <rect class="cls-2" x="39.67" y="472.37" width="104.89" height="104.89" transform="translate(609.03 654.12) rotate(114)"/>
+          <rect class="cls-2" x="76.6" y="589.4" width="53.29" height="53.29" rx="26.64" ry="26.64" transform="translate(383.46 1174.31) rotate(162.86)"/>
+          <g class="cls-3">
+            <rect class="cls-5" x="104.45" y="354.51" width="142.75" height="142.75" rx="71.37" ry="71.37" transform="translate(188.41 -34.7) rotate(24)"/>
+            <rect class="cls-5" x="104.54" y="354.59" width="142.58" height="142.58" rx="71.29" ry="71.29" transform="translate(188.41 -34.7) rotate(24)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
