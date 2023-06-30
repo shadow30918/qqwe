@@ -19,7 +19,7 @@ create_cube(4,"bottom");
 
 $(document).ready(function(){
 
-    kv_cube_animation();
+    
 
     $(".works .list").slick({
         slidesToShow: 3,
@@ -80,13 +80,13 @@ $(document).ready(function(){
             $(".go_top").removeClass("show");
             $("nav").removeClass("scroll");
         }
-        if(win_scroll+$(window).height()>page_H-500){
+        if(win_scroll+winH > page_H-500){
             //console.log((win_scroll+$(window).height()-(page_H-500))/500*100)
             
-            $(".go_top").css("bottom",100-((win_scroll+$(window).height()-(page_H-500))/500*100)+10+"px");
+            $(".go_top").css("bottom",100-((win_scroll+$(window).height()-(page_H-500))/500*100)+50+"px");
             $(".go_top").css("border-radius",100-((win_scroll+$(window).height()-(page_H-500))/5)+"%");
         }else{
-            $(".go_top").css("bottom","100px");
+            $(".go_top").css("bottom","150px");
             $(".go_top").css("border-radius","100%");
         }
 
@@ -115,9 +115,17 @@ $(window).load(function(){
     parallax_Q();
 
     setTimeout(function(){
+        $("html,body").scrollTop(0);
         $(".kv .container").addClass("action");
+    },0)
+
+    setTimeout(function(){
+        kv_cube_animation();
         $(".slogan .item").addClass("animate__flipInY");
-    },1200)
+        $(".pixel .mask").addClass("animate__bounceInDown").show();
+        $(".siang_liang .mask .item").addClass("animate__backInLeft").show();
+        $(".kv_btn").addClass("show");
+    },1700)
 
     init = false;
 })
@@ -178,7 +186,7 @@ function about_bg () {
 
     about_middle_offset_top = $(".about").offset().top+($(".about").height()/2);
 
-    if(win_scroll>(about_middle_offset_top-$(window).height())){
+    if(win_scroll>(about_middle_offset_top-winH)){
         
         percent = ( win_scroll-(about_middle_offset_top-$(window).height()) ) / ($(window).height()/4);
         //console.log(percent)
@@ -186,6 +194,8 @@ function about_bg () {
         percent = (percent>3)?4-percent:percent;
 
         $(".about .bg").css("opacity",percent);
+    }else if(win_scroll<winH/3){
+        $(".about .bg").css("opacity",0);
     }
     //translateX = win_scroll - (about_middle_offset_top - $(window).height()/2);
     //$(".about .cube_block").css("transform","translateY("+translateX*0.8+"px)");
@@ -195,12 +205,12 @@ function kv_cube_animation() {
     $(".kv_cube_top .item").each(function(){
         ran = (Math.random()*(0.3-0) + 0).toFixed(2);
         console.log(ran);
-        $(this).css("animation-delay",2*ran+"s").removeClass("pause");
+        $(this).css("animation-delay",1+3*ran+"s").removeClass("pause");
     })
     $(".kv_cube_bottom .item").each(function(){
         ran = (Math.random()*(0.3-0) + 0).toFixed(2);
         console.log(ran);
-        $(this).css("animation-delay",2*ran+"s").removeClass("pause");
+        $(this).css("animation-delay",1+5*ran+"s").removeClass("pause");
     })
 }
 
