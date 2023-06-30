@@ -204,7 +204,7 @@ nav {
             background: repeating-conic-gradient(#ffd5d5 0 0.001%, #ffffff 0 0.01%);
             background-size: 200%;
             mix-blend-mode: multiply;
-            animation: noise 0.5s steps(5) infinite;
+            animation: noise 0.5s steps(1) infinite;
 
             @include pc-s {
                 background: repeating-conic-gradient(#ffd5d5 0 0.0001%, #aaffba 0 0.0001%, #ffffff 0 0.001%);
